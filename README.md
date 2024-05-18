@@ -22,6 +22,12 @@ https://www.home-assistant.io/installation/raspberrypi#install-home-assistant-co
 * enable service
 
   ```commandline
+  sudo systemctl daemon-reload
   sudo systemctl enable hass
   ```
 
+* start service
+
+  ```commandline
+  sudo systemctl start hass
+  ```
